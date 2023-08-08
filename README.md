@@ -21,10 +21,11 @@ pnpm dev
 ## Features
 
 - NextJS for Severside rendered content
-- Current setup ready to scale to full application
+- Current setup contains scalable architecture
 - ATOMIC design principles - break down components by levels of composition
 - CSS Grid used for layout 6 / 12 columns mobile / desktop
-
+- TailwindCSS for utility class based CSS - preffered for bootstrapping
+  
 
 ## TODO
 - Convert images to webp and resize as appropriate for position on page
