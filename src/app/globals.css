@@ -2,17 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 :root {
+  --brand-1: #6C6EA0;
+  --brand-2: #FF1053;
+
+  --neutral-1-100: #C1CAD6;
+  --neutral-1-200: #A3B7D1;
+  --neutral-1-300: #5C789C;
+  --neutral-1-400: #425875;
+
+
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  .splash {
+    @apply text-7xl lg:text-9xl
+  }
+
+  .display1 {
+    @apply text-8xl lg:text-9xl;
+  }
+
+  .h1 {
+    @apply text-5xl lg:text-6xl;
+  }
+
+  .h2 {
+    @apply text-4xl lg:text-5xl;
+  }
+
+  .b1 {
+    @apply text-lg lg:text-2xl;
+  }
+
+  .b2 {
+    @apply text-base lg:text-lg;
   }
 }
 
